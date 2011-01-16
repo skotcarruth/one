@@ -81,7 +81,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'one.urls'
 
 TEMPLATE_DIRS = (
-	os.path.join(PROJECT_PATH, 'templates'),
+    os.path.join(PROJECT_PATH, 'templates'),
 )
 
 INSTALLED_APPS = (
@@ -91,4 +91,5 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.admin',
+    'one.thoughts',
 )
